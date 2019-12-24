@@ -4,5 +4,11 @@ cybertron-wm    ansible_host=192.168.0.104   ansible_user=mihail  ansible_ssh_pr
 
 
 [work_test]
-ubuntulern   ansible_host=192.168.243.210    ansible_user=mihail   ansible_ssh_private_key_file=/home/toor/.ssh/id_rsa
+#ubuntulern   ansible_host=192.168.243.210    ansible_user=mihail   ansible_ssh_private_key_file=/home/toor/.ssh/id_rsa
 itcam2       ansible_host=192.168.243.132    ansible_user=toor     ansible_ssh_private_key_file=/home/toor/.ssh/id_rsa
+it6               
+
+[work_test:vars]
+ansible_user=toor
+ansible_ssh_private_key_file=/home/toor/.ssh/id_rsa
+
