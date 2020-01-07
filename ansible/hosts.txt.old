@@ -1,0 +1,6 @@
+
+
+
+[group1]
+#cybertron-wm    ansible_host=192.168.0.104   ansible_user=mihail        ansible_ssh_private_key_file=/home/toor/.ssh/id_rsa
+ubuntulern        ansible_host=192.168.243.210    ansible_user=mihail   ansible_ssh_private_key_file=ubuntulern   ansible_host=192.168.243.210    ansible_user=mihail   ansible_ssh_private_key_file=~/.ssh/id_rsa
