@@ -1,0 +1,16 @@
+
+[home_test]
+cybertron-wm    ansible_host=192.168.88.????   ansible_user=mihail  ansible_ssh_private_key_file=/home/toor/.ssh/id_rsa
+
+
+[work_test]
+#ubuntulern   ansible_host=192.168.243.210    ansible_user=mihail   ansible_ssh_private_key_file=/home/toor/.ssh/id_rsa
+#itcam2       ansible_host=192.168.243.132    ansible_user=toor     ansible_ssh_private_key_file=/home/toor/.ssh/id_rsa
+it6
+#ubuntulern
+itcam2             
+
+[work_test:vars]
+ansible_user=toor
+ansible_ssh_private_key_file=/home/toor/.ssh/id_rsa
+
