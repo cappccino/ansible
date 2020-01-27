@@ -1,0 +1,11 @@
+---
+- name: test connection to my hosts
+  hosts: work_sv
+  become: yes
+
+  tasks:
+
+  - name: ping my hosts
+    ping:
+
+
