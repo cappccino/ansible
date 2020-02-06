@@ -1,7 +1,7 @@
 
 
 #------------------------------------------------------------------
-[work_sv]
+[sv_all]
 sv1.nik.grancall.ru
 sv2.nik.grancall.ru
 sv3.nik.grancall.ru
@@ -58,8 +58,6 @@ trener1pc9.nik.grancall.ru
 trener1pc10.nik.grancall.ru
 trener1pc11.nik.grancall.ru
 trener1pc12.nik.grancall.ru
-trener1pc13.nik.grancall.ru
-trener1pc14.nik.grancall.ru
 #-----------------------------------------------------------
 [trener2_all]
 trener2.nik.grancall.ru

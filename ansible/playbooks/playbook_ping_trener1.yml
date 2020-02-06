@@ -1,7 +1,7 @@
 ---
 - name: test connection to my hosts
-  hosts: work_sv
-  become: yes
+  hosts: sv_all
+  become: no
 
   tasks:
 
